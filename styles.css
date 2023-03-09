@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #023047;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+#navbar {
+    background-color: #ffb703;
+    width: 100vw;
+    margin: 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+#navbar li {
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    padding: .5em 2em;
+    font-size: 1.2rem;
+}
+
+#navbar li a:link {
+    text-decoration: none;
+    color: #023047;
+    transition: color .2s ease-in, font-size .2s ease-in;
+}
+
+#navbar li a:visited {
+    text-decoration: none;
+    color: #023047;
+}
+
+#navbar li a:hover {
+    transition: .2s ease;
+    color: #fb8500;
+    font-size: 1.3em;
+}
+
+#navbar li a:active {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.heading {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.heading span {
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#ffb703
+}
+
+.container {
+    border: 2px solid #fff;
+    padding: 10px;
+    margin: 0 auto 1.5em;
+    max-width: 750px;
+    padding: 10px 50px 30px;
+    width: 70%;
+    min-width: 300px;
+    height: auto;
+    background-color: #fff;
+}
+
+.container h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #023047;
+}
+
+.color-container {
+    display: block;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+
+.color-label {
+    display: block;
+}
+
+.color-hex {
+    display: block;
+}
+
+
+.color-panel {
+    margin: 10px;
+    padding: 25px;
+    width: 200px;
+    display: inline-block;
+    flex-direction: column;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+
+.lb {
+    background-color: #8ecae6;
+}
+
+.b {
+    background-color: #219ebc;
+}
+
+.db {
+    background-color: #023047;
+}
+
+.y {
+    background-color: #ffb703;
+}
+
+.o {
+    background-color: #fb8500;
+}
+
+.font-container {
+    display: flex;
+    justify-content: center;
+    color: #023047;
+}
+
+/*.font-box {
+    padding: 2em;
+}*/
+
+.font-playfair {
+    font-family: 'Playfair Display';
+    display: inline-flexbox;
+    padding-right: 3em;
+}
+
+.playfair-label {
+    font-size: 1.3rem;
+    padding-bottom: .5em;
+    border-bottom: 1px solid;
+}
+
+.playfair-bold {
+    font-weight: 700;
+}
+
+.playfair-black {
+    font-weight: 900;
+}   
+
+.font-source {
+    display: inline-flexbox;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 3em;
+}
+
+.source-label {
+    font-weight: 600;
+    font-size: 1.3rem;
+    padding-bottom: .5em;
+    border-bottom: 1px solid;
+}
+
+.source-reg {
+    font-weight: 400;
+}
+
+.source-bold {
+    font-weight: 600;
+}
+
+.text-container h1{
+    color: #023047;
+}
+
+.h1-style {
+    border-bottom: 2px solid #023047;
+    padding-bottom: 2em;
+    padding-top: .1em;
+}
+
+.h1-label {
+    font-weight: 900;
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.h1-description {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.h2-style {
+    border-bottom: 2px solid #023047;
+    padding: 2em 0;
+}
+
+.h2-label {
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.h2-description {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.p-style {
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.p-label {
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.p-description {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer {
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    padding: 5em;
+}
+
+.footer a:link {
+    text-decoration: none;
+    color: #fff;
+    transition: .2s ease;
+}
+
+.footer a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer a:hover {
+    color: #ffb703;
+    transition: .2s ease;
+}
